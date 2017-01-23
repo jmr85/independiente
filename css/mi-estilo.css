@@ -26,6 +26,10 @@
     background-color: #b00910;
     text: white;
 }
+img{
+    position: relative; 
+    width: 100%;
+}
 footer{
     /*position: absolute;*/
 }
