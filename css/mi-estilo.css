@@ -1,0 +1,31 @@
+
+/*sobrescribiendo class de bootstrap para que no haya margen inferior con la navegacion*/
+.container-fluid {
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #b00910;
+}
+.page-header{
+    margin: 20px 0px 0px 0px;
+    /*background-image: url("https://yt3.ggpht.com/YEKCYc6KjImHT3ASnvn-3SY_iE2D5WbR9wmTLKGEcECBMpHg8D5DxJ0LDfcgh0icU-ZfroDjG-U=w1060-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no");
+     background-color: transparent; */ 
+     background: #b00910 url("http://estatico.clubaindependiente.com/img/fondos/_banda_r.jpg");
+     /*background: #b00910 url("http://estatico.clubaindependiente.com/img/fondos/hd_rayos.png");*/
+     border-radius: 4px;   
+}
+.page-header  h1 {
+    font: white;
+}
+.navbar navbar-default{
+   /* background-color: rgba(248, 248, 248, 0.5);*/
+   
+}
+.dropdown-menu > li{
+    background-color: #b00910;
+    text: white;
+}
+footer{
+    /*position: absolute;*/
+}
