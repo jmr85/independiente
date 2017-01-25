@@ -1,11 +1,14 @@
-
+body{
+        font-family: 'Fira Sans Condensed', sans-serif;
+}
 /*sobrescribiendo class de bootstrap para que no haya margen inferior con la navegacion*/
-.container-fluid {
+.container{
     padding-right: 60px;
     padding-left: 60px;
     margin-right: auto;
     margin-left: auto;
     background-color: #b00910;
+    
 }
 .page-header{
     margin: 20px 0px 0px 0px;
@@ -21,10 +24,32 @@
 .navbar navbar-default{
    /* background-color: rgba(248, 248, 248, 0.5);*/
    
+   
 }
 .dropdown-menu > li{
     background-color: #b00910;
     text: white;
+}
+.carousel-caption{
+    background: rgba(255,255,255,.8);
+    padding: 4px 8px;
+}
+.carousel-inner h3{
+   color: red;
+}
+.art img,  .thumbnail a > img{
+    position: relative; 
+    width: 100%;
+   /* max-height: 272px;*/
+   height: 100%;
+}
+img{
+    width: 100%;
+}
+.carousel-inner{/* o .carousel img{} */
+    max-height: 400px;
+    margin-bottom: 40px;
+
 }
 footer{
     /*position: absolute;*/
