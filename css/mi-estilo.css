@@ -7,35 +7,46 @@ body{
     padding-left: 60px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #b00910;
-    
+    background-color: #b00910;   
 }
 .page-header{
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 0px 0px ;
     /*background-image: url("https://yt3.ggpht.com/YEKCYc6KjImHT3ASnvn-3SY_iE2D5WbR9wmTLKGEcECBMpHg8D5DxJ0LDfcgh0icU-ZfroDjG-U=w1060-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no");
      background-color: transparent; */ 
-     background: #b00910 url("http://estatico.clubaindependiente.com/img/fondos/_banda_r.jpg");
+     /*background: #b00910 url("http://estatico.clubaindependiente.com/img/fondos/_banda_r.jpg");*/
      /*background: #b00910 url("http://estatico.clubaindependiente.com/img/fondos/hd_rayos.png");*/
      border-radius: 4px;   
 }
-.page-header  h1 {
-    font: white;
+.page-header > h1 {
+    color: white;
+}
+.page-header  img {
+    max-width: 82px;
+    max-height: 73px;
+    position: relative;
+    bottom: 65px;
+    float: right;
 }
 .navbar navbar-default{
-   /* background-color: rgba(248, 248, 248, 0.5);*/
-   
-   
+   /* background-color: rgba(248, 248, 248, 0.5);*/ 
+}
+.nav>li {
+    margin-right: 18px;
+    margin-left: 18px;
 }
 .dropdown-menu > li{
     background-color: #b00910;
     text: white;
 }
 .carousel-caption{
-    background: rgba(255,255,255,.8);
+    background: rgba(255,255,255,.6);
     padding: 4px 8px;
+    box-shadow: 3px;
+    border-radius: 6px;
 }
-.carousel-inner h3{
-   color: red;
+.carousel-inner h3, p{
+   /*color: #333;*/
+   color: #2c2c2c;
 }
 .art img,  .thumbnail a > img{
     position: relative; 
@@ -46,9 +57,9 @@ body{
 img{
     width: 100%;
 }
-.carousel-inner{/* o .carousel img{} */
+.carousel img{
     max-height: 400px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 
 }
 footer{

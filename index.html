@@ -10,8 +10,10 @@
 </head>
 <body>
 <div class="container">  
+
 <div class="page-header">
-    <h1> Club Atletico Independiente</h1>
+    <h1> Club Atlético Independiente</h1>
+    <!--<img src="img/escudo2.png" class="masthead-brand" alt="escudo" width="85" height="73">-->
 </div>
 
 <nav class="navbar navbar-default">
@@ -43,19 +45,6 @@
         <li><a href="contacto.html">Contacto</a></li>
      
       </ul>
-     
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acerca de <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -63,16 +52,18 @@
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
-  <!--<ol class="carousel-indicators">
+  <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol> -->
+  </ol> 
 
+  
   <!-- Wrapper for slides -->
+  
   <div class="carousel-inner">
     <div class="item active">
-      <img src="img/rojo_goleada_racing.jpg" alt="goleada del rojo">
+      <img src="img/rojo_goleada_racing_carou.jpg" alt="goleada del rojo">
       <div class="carousel-caption"><!-- caption es la leyenda o subtitulo -->
           <h3>Triunfo con goleada</h3>
           <p>El rojo ganó con comodidad</p>
@@ -144,10 +135,35 @@
       <div class="caption">
         <h3>El rojo ganó el clasico por goleada</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati? Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
-        <p> <a href="#" class="btn btn-default" role="button">Mas detalles</a></p>
+        <p> 
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#seccion">
+                  Mas detalles
+            </button>
+        </p>
+                <!-- Modal -->
+        <div class="modal fade" id="seccion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">El rojo ganó el clasico por goleada</h4>
+              </div>
+              <div class="modal-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia deserunt voluptatum est quae explicabo fugit harum, voluptatem. Veritatis recusandae illum adipisci distinctio amet nemo. Pariatur dolorem dolore itaque, blanditiis magni.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsa repudiandae earum ad voluptatibus, qui quia, sed omnis modi quas dolorem, odio, error perferendis asperiores molestias pariatur. Provident incidunt, temporibus!
+                    
+                    <img src="img/rojo_goleada_racing.jpg" alt="goleada a racing">  
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </div><!-- End Modal -->
   <div class="art col-sm-6 col-md-4">
     <div class="thumbnail">
       <img src="img/maradona-con-bochini.jpg" alt="...">
