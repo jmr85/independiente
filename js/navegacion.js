@@ -1,18 +1,26 @@
 $(document).ready(function () {
-    $('#club').click(function () {
-        // $('#contenido-principal').html('js/formulario.html #clase-row');//NO anda
-        $.ajax({
-            url: "js/formulario.html",
-            cache: true,
-            success: function (contenido) {
-                $('#contenido-principal').html(contenido);
-            }
-        });
-    });
+    obtenerLinks();
 });
 
         
+function obtenerLinks(){
+	 var links = $('ul[class="nav navbar-nav"] li a');//selecciona todos los a de ul
+	 
+	 links.click(function(){
+			
+		 obtenerPagina(this.id);
+		 
+	 });			   
+ }
+function obtenerPagina(id){//pasando por parametro id de li
+	$.ajax({
+          url: id + ".html",
+          cache: true,
+          success: function (contenido) {
+              $('#contenido-principal').html(contenido);
+          }
+     });
+}
+
  
-
-
-
+	
