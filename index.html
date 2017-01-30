@@ -1,198 +1,226 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Independiente · Sitio NO Oficial</title>
-    <meta name="description" content="Sitio NO Oficial del C. A. Independiente, el Rey de Copas. Orgullo Nacional. Diablos Rojos. Fundado el 1º de enero de 1905. Avenida Mitre 470, 1870 Avellaneda, Argentina. Desarrollado por github.com/jmr85.">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/mi-estilo.css"
-</head>
-<body>
-<div class="container">  
+  <meta charset="UTF-8">
+  <title>Independiente · Sitio NO Oficial</title>
+  <meta name="description" content="Sitio NO Oficial del C. A. Independiente, el Rey de Copas. Orgullo Nacional. Diablos Rojos. Fundado el 1º de enero de 1905. Avenida Mitre 470, 1870 Avellaneda, Argentina. Desarrollado por github.com/jmr85.">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/mi-estilo.css" </head>
 
-<div class="page-header">
-    <h1> Club Atlético Independiente</h1>
-    <!--<img src="img/escudo2.png" class="masthead-brand" alt="escudo" width="85" height="73">-->
-</div>
+  <body>
+    <div class="container">
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+      <div class="page-header">
+        <div class="row">
+          <div class="col-md-10">
+            <h1> Club Atlético Independiente</h1>
+          </div>
+          <div class="col-md-2">
+            <img src="img/escudo.png" id="escudo" lass="masthead-brand" alt="escudo" width="61" height="60">
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">
-          <span class="glyphicon  glyphicon-home" aria-hidden="true"></span>
-          <!-- <img alt="Escud" src="...">  aca poner el escudo Independiente -->
-      </a>
-    </div>
+            <!-- boton de las tres rayas para cuando se accece con un movil se achica la pantalla -->
+            <a class="navbar-brand" href="index.html">
+              <span class="glyphicon  glyphicon-home" aria-hidden="true"></span>
+              <!-- <img alt="Escud" src="...">  aca poner el escudo Independiente -->
+            </a>
+          </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">El club <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Deportes amateur</a></li>
-        <li><a href="#">Socios</a></li>
-        <li><a href="#">Peñas</a></li>
-        <li><a href="#">Marketing</a></li>
-        <li><a href="#">Cultura</a></li>
-        <li><a href="#">Prensa</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-     
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a id="club" href="#">El club <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Deportes amateur</a></li>
+              <li><a href="#">Socios</a></li>
+              <li><a href="#">Peñas</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Cultura</a></li>
+              <li><a href="#">Prensa</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
 
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol> 
-
-  
-  <!-- Wrapper for slides -->
-  
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="img/rojo_goleada_racing_carou.jpg" alt="goleada del rojo">
-      <div class="carousel-caption"><!-- caption es la leyenda o subtitulo -->
-          <h3>Triunfo con goleada</h3>
-          <p>El rojo ganó con comodidad</p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="img/independiente_1994.jpg" alt="Indipendiente 1994">
-      <div class="carousel-caption">
-           <h3>Aniversario</h3>
-           <p>Se cumplen 22 años de la primer Supercopa</p>  
-      </div>
-
-    </div>
-     <div class="item">
-      <img src="img/techo-rojo.jpg" alt="Indipendiente 1994">
-      <div class="carousel-caption">
-           <h3>La CD quiere techar el estadio</h3>
-           <p>Lorem ipsum dolor sit amet...</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
+      <!-- contenido-principal -->
+      <div id="contenido-principal">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
 
 
-<div class="row">
-  <div class="art col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="img/rojo_goleada_racing.jpg" alt="...">
-      <div class="caption">
-        <h3>El rojo ganó el clasico por goleada</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati? Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
-        <p> <a href="#" class="btn btn-default" role="button">Mas detalles</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="art col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="img/maradona-con-bochini.jpg" alt="...">
-      <div class="caption">
-        <h3>Bocchini es el idolo de Maradona</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati? Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
-        <p> <a href="#" class="btn btn-default" role="button">Mas detalles</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="art col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="img/estadio_libert_techado.jpg" alt="...">
-      <div class="caption">
-        <h3>La comision directiva tiene planeado techar el estadio</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati? Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
-        <p> <a href="#" class="btn btn-default" role="button">Mas detalles</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="art col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="img/rojo_goleada_racing.jpg" alt="...">
-      <div class="caption">
-        <h3>El rojo ganó el clasico por goleada</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati? Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
-        <p> 
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#seccion">
-                  Mas detalles
-            </button>
-        </p>
-                <!-- Modal -->
-        <div class="modal fade" id="seccion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">El rojo ganó el clasico por goleada</h4>
+          <!-- Wrapper for slides -->
+
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/rojo_goleada_racing_carou.jpg" alt="goleada del rojo">
+              <div class="carousel-caption">
+                <!-- caption es la leyenda o subtitulo -->
+                <h3>Triunfo con goleada</h3>
+                <p>El rojo ganó con comodidad</p>
               </div>
-              <div class="modal-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia deserunt voluptatum est quae explicabo fugit harum, voluptatem. Veritatis recusandae illum adipisci distinctio amet nemo. Pariatur dolorem dolore itaque, blanditiis magni.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsa repudiandae earum ad voluptatibus, qui quia, sed omnis modi quas dolorem, odio, error perferendis asperiores molestias pariatur. Provident incidunt, temporibus!
-                    
-                    <img src="img/rojo_goleada_racing.jpg" alt="goleada a racing">  
+            </div>
+            <div class="item">
+              <img src="img/independiente_1994.jpg" alt="Indipendiente 1994">
+              <div class="carousel-caption">
+                <h3>Aniversario</h3>
+                <p>Se cumplen 22 años de la primer Supercopa</p>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+            </div>
+            <div class="item">
+              <img src="img/techo-rojo.jpg" alt="Indipendiente 1994">
+              <div class="carousel-caption">
+                <h3>La CD quiere techar el estadio</h3>
+                <p>Lorem ipsum dolor sit amet...</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+        <!-- End carousel -->
+
+        <div class="row">
+          <div class="art col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/rojo_goleada_racing.jpg" alt="...">
+              <div class="caption">
+                <h3>El rojo ganó el clasico por goleada</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati?
+                  Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
+                <p> <a href="#" class="btn btn-default" role="button">Mas detalles</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="art col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/maradona-con-bochini.jpg" alt="...">
+              <div class="caption">
+                <h3>Bocchini es el idolo de Maradona</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati?
+                  Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
+                <p> <a href="#" class="btn btn-default" role="button">Mas detalles</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="art col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/estadio_libert_techado.jpg" alt="...">
+              <div class="caption">
+                <h3>La comision directiva tiene planeado techar el estadio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati?
+                  Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
+                <p> <a href="#" class="btn btn-default" role="button">Mas detalles</a></p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div><!-- End Modal -->
-  <div class="art col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="img/maradona-con-bochini.jpg" alt="...">
-      <div class="caption">
-        <h3>Bocchini es el idolo de Maradona</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati? Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
-        <p> <a href="#" class="btn btn-default" role="button">Mas detalles</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="art col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="img/estadio_libert_techado.jpg" alt="...">
-      <div class="caption">
-        <h3>La comision directiva tiene planeado techar el estadio</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati? Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
-        <p> <a href="#" class="btn btn-default" role="button">Mas detalles</a></p>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="row">
+          <div class="art col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/rojo_goleada_racing.jpg" alt="...">
+              <div class="caption">
+                <h3>El rojo ganó el clasico por goleada</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati?
+                  Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
+                <p>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#seccion">
+                  Mas detalles
+            </button>
+                </p>
+                <!-- Modal -->
+                <div class="modal fade" id="seccion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">El rojo ganó el clasico por goleada</h4>
+                      </div>
+                      <div class="modal-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia deserunt voluptatum est quae explicabo fugit harum, voluptatem.
+                        Veritatis recusandae illum adipisci distinctio amet nemo. Pariatur dolorem dolore itaque, blanditiis
+                        magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ipsa repudiandae earum ad
+                        voluptatibus, qui quia, sed omnis modi quas dolorem, odio, error perferendis asperiores molestias
+                        pariatur. Provident incidunt, temporibus!
 
+                        <img src="img/rojo_goleada_racing.jpg" alt="goleada a racing">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Modal -->
 
-<footer class="footer">
-    <p class="text-muted">  © 2017 desarrolado por <a href="https://github.com/jmr85">@jmr85</a></p>
-</footer>
+          <div class="art col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/maradona-con-bochini.jpg" alt="...">
+              <div class="caption">
+                <h3>Bocchini es el idolo de Maradona</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati?
+                  Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
+                <p> <a href="#" class="btn btn-default" role="button">Mas detalles</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="art col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/estadio_libert_techado.jpg" alt="...">
+              <div class="caption">
+                <h3>La comision directiva tiene planeado techar el estadio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repellat repellendus sint eos aut obcaecati?
+                  Voluptate at, dolor hic, harum quisquam doloribus! Ipsa aliquam, sunt incidunt cumque maiores quos ab.</p>
+                <p> <a href="#" class="btn btn-default" role="button">Mas detalles</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-</div>
+      </div>
+      <!-- End contenido-principal -->
+      <footer class="footer">
+        <p class="text-muted"> © 2017 desarrolado por <a href="https://github.com/jmr85">@jmr85</a></p>
+      </footer>
+
+    </div>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-</body>
+    <script src="js/animaciones.js"></script>
+    <script src="js/navegacion.js"></script>
+  </body>
+
 </html>
