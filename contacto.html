@@ -1,17 +1,17 @@
-<link 
+
 Envianos tu opinión y/o sugerencias sobre el sitio
 <div id="clase-row" class="row">
                 <div class="col-md-6">
                 
                         <form role="form" id="form-contacto">
                             <div class="form-group">
-                            	<input type="text" class="form-control"    id="nombre_1" placeholder="Nombre (requerido)" autofocus required>
+                            	<input type="text" class="form-control"   name="nombre" id="nombre_1" placeholder="Nombre (requerido)" autofocus required>
                             </div>
                             <div class="form-group">
-								<input type="email" class="form-control" id="email_1" placeholder="tumail@mail.com (requerido)" required>
+								<input type="email" class="form-control" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" id="email_1" placeholder="fulano@mail.com (requerido)" required>
 							</div>
 							<div class="form-group">
-								<input type="tel" class="form-control" id="tel_1" placeholder="11 5667 5678" >
+								<input type="tel" class="form-control"  pattern="[\(]\d{2}[\)]\d{4}[\-]\d{4}" name="tel" id="tel_1" placeholder="(11)0800-5555" >
 							</div>
                             <div class="form-group">
                             	<input type="text" class="form-control" id="asunto_1" placeholder="Asunto">
@@ -21,7 +21,7 @@ Envianos tu opinión y/o sugerencias sobre el sitio
                             </div>
                             	<button id="boton-form" type="submit" class="btn btn-default">Enviar</button>
                         </form>
-                        <p class="bg-success"></p>            
+                        <p class="bg-success" style="margin-top: 15px"></p>            
                 </div>
 				<div class="col-md-6">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.386464728236!2d-58.37320168514562!3d-34.670194480442305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3334b39d33bdd%3A0xdb9a534cc563fa7!2sEstadio+Libertadores+de+America!5e0!3m2!1ses-419!2sar!4v1485179344352"

@@ -9,6 +9,7 @@ function obtenerLinks(){
 		 obtenerPagina(this.id);
 	 });			   
  }
+
 function obtenerPagina(id){//pasando por parametro id de li
      $('#contenido-principal').load(id + ".html");
 }
